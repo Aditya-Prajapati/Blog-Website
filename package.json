@@ -4,9 +4,7 @@
     "description": "",
     "scripts": {
         "build": "npm run compile && npm run bundle && node app.js",
-        "compile": "babel src -d dist",
-        "bundle": "webpack",
-        "start": "node dist/app.js"
+        "start": "node app.js"
     },
     "repository": {
         "type": "git",
