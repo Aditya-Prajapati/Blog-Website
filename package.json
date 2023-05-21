@@ -3,8 +3,10 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "build": "npm run compile && npm run bundle",
-        "start": "node app.js"
+        "build": "npm run compile && npm run bundle && node app.js",
+        "compile": "babel src -d dist",
+        "bundle": "webpack",
+        "start": "node dist/app.js"
     },
     "repository": {
         "type": "git",
