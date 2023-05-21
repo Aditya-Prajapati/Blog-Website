@@ -1,19 +1,25 @@
 {
-    "name": "Blog-Website-with-db-",
-    "version": "1.0.0",
-    "description": "",
-    "scripts": {
-        "build": "npm run compile && npm run bundle && node app.js",
-        "start": "node app.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Aditya-Prajapati/Blog-Website-with-db-.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Aditya-Prajapati/Blog-Website-with-db-/issues"
-    },
-    "homepage": "https://github.com/Aditya-Prajapati/Blog-Website-with-db-#readme"
+  "name": "Blog-Website-with-db-",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npm run compile && npm run bundle && node app.js",
+    "start": "node app.js",
+    "compile": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aditya-Prajapati/Blog-Website-with-db-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aditya-Prajapati/Blog-Website-with-db-/issues"
+  },
+  "homepage": "https://github.com/Aditya-Prajapati/Blog-Website-with-db-#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0"
+  }
 }
